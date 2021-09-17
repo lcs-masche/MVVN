@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3D2F9F6C26F4ED2D00EF42C8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2F9F6B26F4ED2D00EF42C8 /* main.swift */; };
 		3D2F9F7426F4EFE600EF42C8 /* Magic8Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2F9F7326F4EFE600EF42C8 /* Magic8Ball.swift */; };
+		3D2F9F7826F4F33000EF42C8 /* session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2F9F7726F4F33000EF42C8 /* session.swift */; };
+		3D2F9F7F26F4F5FC00EF42C8 /* AdviceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2F9F7E26F4F5FC00EF42C8 /* AdviceViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +29,8 @@
 		3D2F9F6826F4ED2D00EF42C8 /* MVVN */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MVVN; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D2F9F6B26F4ED2D00EF42C8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		3D2F9F7326F4EFE600EF42C8 /* Magic8Ball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic8Ball.swift; sourceTree = "<group>"; };
+		3D2F9F7726F4F33000EF42C8 /* session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = session.swift; sourceTree = "<group>"; };
+		3D2F9F7E26F4F5FC00EF42C8 /* AdviceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +63,9 @@
 		3D2F9F6A26F4ED2D00EF42C8 /* MVVN */ = {
 			isa = PBXGroup;
 			children = (
+				3D2F9F7B26F4F54200EF42C8 /* ViewModels */,
+				3D2F9F7A26F4F53700EF42C8 /* Views */,
 				3D2F9F7226F4EFC700EF42C8 /* Model */,
-				3D2F9F6B26F4ED2D00EF42C8 /* main.swift */,
 			);
 			path = MVVN;
 			sourceTree = "<group>";
@@ -69,8 +74,25 @@
 			isa = PBXGroup;
 			children = (
 				3D2F9F7326F4EFE600EF42C8 /* Magic8Ball.swift */,
+				3D2F9F7726F4F33000EF42C8 /* session.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		3D2F9F7A26F4F53700EF42C8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D2F9F6B26F4ED2D00EF42C8 /* main.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3D2F9F7B26F4F54200EF42C8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3D2F9F7E26F4F5FC00EF42C8 /* AdviceViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,7 +153,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D2F9F7F26F4F5FC00EF42C8 /* AdviceViewModel.swift in Sources */,
 				3D2F9F6C26F4ED2D00EF42C8 /* main.swift in Sources */,
+				3D2F9F7826F4F33000EF42C8 /* session.swift in Sources */,
 				3D2F9F7426F4EFE600EF42C8 /* Magic8Ball.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

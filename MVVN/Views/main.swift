@@ -7,6 +7,8 @@
 
 import Foundation
 
+var advisor = AdviceViewModel()
+
 // Program name
 print("MAGIC 8 BALL")
 print("============")
@@ -22,11 +24,9 @@ print("What is your question? ")
 // Get input as a non-optional String
 let input = readLine()!
 
-// Print out their question
-print("")
-print("You said: \(input)")
-print("")
+// Print out their questi
+    // start an advice session
+// use the static function right from magic 8 ball type (no instance required)
 
 
-let advisor = Magic8Ball()
-print(advisor.getResponse())
+print(advisor.provideResponseFor(givenQuery: input))
